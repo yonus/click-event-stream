@@ -126,3 +126,5 @@ dmypy.json
 
 #aws
 .aws-sam/
+
+.data
