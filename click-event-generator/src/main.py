@@ -8,7 +8,7 @@ CLICK_EVENT_FILE_DIRECTORY  = "CLICK_EVENT_FILE_DIRECTORY"
 def get_click_event_file_directory():
      if os.getenv(CLICK_EVENT_FILE_DIRECTORY):
           return os.getenv(CLICK_EVENT_FILE_DIRECTORY)
-     return "../data/clicks2"
+     return "../datasource/data/clicks"
 
 if __name__ == '__main__':
     reader = CsvClickEventReader(get_click_event_file_directory())
